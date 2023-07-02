@@ -1,0 +1,20 @@
+{
+ "data": [
+   {
+    "title" : "Home",
+     "url": "/about-us/company-overview"
+   },
+   {
+    "title" : "Destinasi",
+     "url": "/business/media"
+   },
+   {
+    "title" : "Paket",
+     "url": "/corporate-governance/charters"
+   },
+   {
+    "title" : "Photoshoots",
+     "url": "/corporate-governance/charters"
+   }
+ ]
+}

@@ -1,7 +1,10 @@
+import { Header } from "~/components/Header";
+
+
 export const DefaultLayouts = ({ children }) => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="site-main">
         <div className="container">{children}</div>
       </main>
