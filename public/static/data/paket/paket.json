@@ -1,0 +1,17 @@
+[
+  {
+    "imageUrl": "/assets/paket/card-borobudur.png",
+    "desc": "Paket short mendapatkan 1 Wisata edukasi dan 1 wisata destinasi serta mendapatkan 1 bonus foto dengan background pegunungan Menoreh. (2 jam)",
+    "paketUrl": "/paket/short"
+  },
+  {
+    "imageUrl": "/assets/paket/card-borobudur.png",
+    "desc": "Paket Medium mendapatkan 2 Wisata edukasi dan 1 wisata destinasi serta mendapatkan bonus foto dengan background pegunungan Menoreh. (3 jam)",
+    "paketUrl": "/paket/medium"
+  },
+  {
+    "imageUrl": "/assets/paket/card-borobudur.png",
+    "desc": "Paket short mendapatkan 1 Wisata edukasi dan 1 wisata destinasi serta mendapatkan 1 bonus foto dengan background pegunungan Menoreh. (4 jam)",
+    "paketUrl": "/paket/long"
+  }
+]
