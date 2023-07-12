@@ -12,7 +12,7 @@ const index = () => {
             VW WiraWiri adalah perusahaan yang fokus bergerak dibidang Tour Travel. Perusahaan kami bermula dari hobi mobil VW yang kemudian menjadi salah satu lini bisnis wisata VW Tour Borobudur yang sangat terkenal dan digemari di area
             Magelang dan Jogja.
           </p>
-          <Button title="Pesan Sekarang" position="right" />
+          <Button title="Pesan Sekarang" position="right" url="/paket" />
         </div>
       </div>
       <div className="col-span-1">

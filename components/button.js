@@ -15,13 +15,13 @@ const Button = ({ title, position = "left", url = "/" }) => {
     );
 
   return (
-    <button className="w-[266px] h-[60px] bg-[#0E8388] text-white flex items-center justify-center rounded-full ">
+    <Link href={url} className="w-[266px] h-[60px] bg-[#0E8388] text-white flex items-center justify-center rounded-full ">
       {position == "left" && positionIcon}
-      <Link href={url} className="font-medium text-[20px] leading-[30px]">
+      <p className="font-medium text-[20px] leading-[30px]">
         {title}
-      </Link>
+      </p>
       {position == "right" && positionIcon}
-    </button>
+    </Link>
   );
 };
 

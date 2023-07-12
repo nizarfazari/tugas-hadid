@@ -5,14 +5,18 @@ import { LoginLayouts } from "~/layouts/LoginLayouts";
 
 const Login = () => {
   return (
-    <div className="pt-40">
+    <div className="flex justify-center items-center h-[800px]">
+      <div className="p-14 bg-white">
       <div className="flex justify-center flex-col gap-5 items-center">
-        <h1 className="text-[128px] leading-[128px] font-bold text-white text-center mb-10">LOGIN</h1>
-        <Image src="/assets/Man.png" width={194} height={194} alt="login" />
+        <div className="mb-[15px]">
+          <img src="/assets/logo.svg" width={250}  alt="Picture of the author" className="text-white mx-auto mb-2"  />
+          <h1 className="text-[12px] text-[#6b6b6b]">Silahkan Login dengan Email dan Password anda</h1>
+        </div>
         <InputLogin placeholder="USERNAME" />
         <InputLogin placeholder="PASSWORD" type="password" />
-        <Button title="MASUK" position="right" />
+        <Button title="MASUK" position="right" url="/admin" />
       </div>
+    </div>
     </div>
   );
 };

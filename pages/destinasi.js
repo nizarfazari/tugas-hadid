@@ -30,12 +30,10 @@ const destinasi = () => {
   return (
     <div className="mt-20 mb-40">
       <h1 className="text-center text-[128px] leading-[128px] font-bold text-[#2E4F4F] mb-10">WISATA EDUKASI</h1>
-      <div className="flex gap-x-[80px]">
-        <Image src="/assets/destinasi/destinasi-1.png" width={750} height={430} alt="Picture of the author" />
-        <Image src="/assets/destinasi/destinasi-2.png" width={750} height={430} alt="Picture of the author" />
+      <div className="grid grid-cols-2 gap-[40px]">
+        <img className="col-span-1" src="/assets/destinasi/destinasi-1.png"  alt="Picture of the author" />
+        <img className="col-span-1" src="/assets/destinasi/destinasi-2.png"  alt="Picture of the author" />
       </div>
-      Wisata edukasi batik di sini dimulai sejak 2012 dengan motif ciri khas Borobudur. Makanya, saya membuat batik dengan motif mandala. Artinya, Borobudur itu kalau dilihat dari atas bentuknya kotak-kotak, ada motif daun bodhi, tunas
-      kelapa yang berbentuk miring karena kami ingin ada ciri khas batik Borobudur
       <p className="mt-[65px] text-center text-[18px] leading-[27px] text-[#1A093CCC]">
         Siapa sih yang tidak kenal dengan Candi Borobudur? Salah satu ikon Indonesia yang terkenal di mata dunia ini ternyata memiliki spot wisata edukasi yang seru dan menyenangkan. Saat mengunjungi wisata edukasi Borobudur, maka Anda
         bersama dengan keluarga bisa bermain sambil belajar nantinya. Para pengunjung bisa menemukan spot edukasi di area dekat Candi Borobudur dengan budget yang sangat terjangkau. Jadi sambil membuat Borobudur temple video, Anda bisa

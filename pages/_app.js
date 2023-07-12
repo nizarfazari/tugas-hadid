@@ -1,4 +1,5 @@
 import { DefaultLayouts } from "~/layouts/DefaultLayout";
+
 import "~/styles/main.scss";
 
 export default function MyApp({ Component, pageProps }) {
@@ -7,6 +8,7 @@ export default function MyApp({ Component, pageProps }) {
     <div id="layout">
       <Layout>
         <Component {...pageProps} />
+
       </Layout>
     </div>
   );

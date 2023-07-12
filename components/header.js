@@ -17,17 +17,13 @@ export const Header = ({ isLogo = true }) => {
     {
       title: "Paket",
       url: "/paket",
-    },
-    {
-      title: "Photoshoots",
-      url: "/photoshoots",
-    },
+    }
   ];
 
   return (
     <div className="container mx-auto h-[80px]">
       <div className="flex items-center h-full">
-        <Image src="/assets/logo.png" width={100} height={40} alt="Picture of the author" className={isLogo ? "block" : "hidden"} />
+      <img src="/assets/logo.svg" width={200}  alt="Picture of the author"   />
         <ul className="flex gap-x-[40px] mx-auto">
           {data.map((val, i) => {
             return (
